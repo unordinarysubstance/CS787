@@ -268,9 +268,8 @@ uv pip install tavily-python
 uv pip install crewai
 uv pip install langchain_community
 ```
-13) Place research reports inside:
-assets/rag_assets/
-from company_assets/RELIANCE.NS/RELIANCE.NS.pdf 
+13) Place research reports inside: `assets/rag_assets/`  
+from: `company_assets/RELIANCE.NS/RELIANCE.NS.pdf`
 (this is for example - RELIANCE.NS)
 
 15) Run AlphaAgent by this command:
