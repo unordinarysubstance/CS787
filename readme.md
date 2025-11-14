@@ -221,7 +221,7 @@ CS787 '<real-number>'
 
 Where `<real-number>` ∈ **(-1, 1)** and is **never 0**.
 
-## How to Run:
+## How to Run (in macOS):
 
 1) git clone https://github.com/unordinarysubstance/CS787
 2) Install `uv`
@@ -270,11 +270,14 @@ uv pip install langchain_community
 ```
 13) Place research reports inside:
 assets/rag_assets/
-from company_assets/<ticker>/<ticker>.pdf
-14) Run AlphaAgent by this command:
+from company_assets/RELIANCE.NS/RELIANCE.NS.pdf 
+(this is for example - RELIANCE.NS)
+
+15) Run AlphaAgent by this command:
 ```bash
 uv run --python python3.13 python main.py --stock RELIANCE.NS --pdf assets/rag_assets/RELIANCE.NS.pdf
 ```
 This is for RELIANCE.NS, for e.g.
 
 15) The output is as shown:
+    ![Logo](image.png)
