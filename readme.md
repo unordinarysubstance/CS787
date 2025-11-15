@@ -287,7 +287,7 @@ uv run python main.py --stock RELIANCE.NS --pdf assets/rag_assets/RELIANCE.NS.pd
 This is for RELIANCE.NS, for e.g.
 
 15) The output is as shown:
-    ![Logo](image.png)
+    ![Logo](Documents/image.png)
 
 ## How to run (in Windows):
 
