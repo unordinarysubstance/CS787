@@ -231,11 +231,8 @@ Where `<real-number>` ∈ **(-1, 1)** and is **never 0**.
 
 ## How to Run (in macOS):
 
-1) Clone the repo:
-```bash
-git clone https://github.com/unordinarysubstance/CS787
-```
-3) Install `uv`
+1) git clone https://github.com/unordinarysubstance/CS787
+2) Install `uv`
 ```bash
 pip install uv
 curl -LsSf https://astral.sh/uv/install.sh | sh
@@ -285,7 +282,7 @@ from: `company_assets/RELIANCE.NS/RELIANCE.NS.pdf`
 
 15) Run AlphaAgent by this command:
 ```bash
-uv run --python python3.13 python main.py --stock RELIANCE.NS --pdf assets/rag_assets/RELIANCE.NS.pdf
+uv run python main.py --stock RELIANCE.NS --pdf assets/rag_assets/RELIANCE.NS.pdf
 ```
 This is for RELIANCE.NS, for e.g.
 
@@ -298,11 +295,12 @@ This is for RELIANCE.NS, for e.g.
 ```bash
 git clone https://github.com/unordinarysubstance/CS787
 ```
-3) Install `uv`
+2) Install `uv`
 ```bash
 irm https://astral.sh/uv/install.ps1 | iex
 ```
 Add this to your path manually `%USERPROFILE%\.local\bin`
+
 3) Verify:
 ```bash
 uv --version
